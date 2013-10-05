@@ -6,39 +6,44 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+        <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="{{ site.baseurl }}/images/favicon.ico" type="image/x-icon">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+
+        <!-- Foundation CSS -->
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/css/foundation.css">
 
     </head>
     <body>
 
         <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <a class="extra" href="{{ site.baseurl }}/">home</a>
+          <div class="row">
+            <div class="large-12 columns">
+              <h1 class="title"><a href="{{ site.baseurl }}/">Sean M Donnelly</a></h1>
+            </div>
           </div>
 
-          {{ content }}
+          <div class="row">
+            <div class="large-12 columns">
+              <img src="{{ site.baseurl }}/images/banner.png">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="small-9 large-centered columns">{{ content }}</div>
+          </div>
 
           <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
+            <div class="row">
+              <div class="large-12 columns">
+                <hr>
+                  <div class="large-6 columns">
+                    <small>Hey look over here. Gimme that sandwich!</small>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
-
     </body>
 </html>
