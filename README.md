@@ -1,6 +1,6 @@
 seanmdonnelly.com
 ========================================
-Source for my GitHub user page and eventually seanmdonnelly.com
+Source for my GitHub user page and seanmdonnelly.com
 
 
 License
