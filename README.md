@@ -5,8 +5,9 @@ Source for my GitHub user page and eventually seanmdonnelly.com
 
 License
 =======
-The following directories and their contents are Copyright Sean M Donnelly.  You may not reuse anything therein without my permission:
+The following files are Copyright Sean M Donnelly.  You may not reuse anything therein without my permission:
 
-*   images/
+*   images/banner.png
+*   images/favicon.ico
 
 All other directories and files are MIT Licensed.
